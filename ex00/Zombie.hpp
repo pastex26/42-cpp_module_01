@@ -14,7 +14,7 @@ public:
 	void	setName(std::string nameArg);
 private:
 	std::string name;
-
+\
 };
 
 void	randomChump(std::string name);

@@ -2,7 +2,7 @@
 
 int	main(void)
 {
-	int n = 4;
+	int n = 7;
 	Zombie* horde = zombieHorde(n, "patrick");
 
 	if (!horde)

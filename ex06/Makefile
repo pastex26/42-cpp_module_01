@@ -9,7 +9,7 @@ SRC := $(addsuffix .cpp, $(FILE))
 
 OBJ := $(addprefix $(OBJ_DIR)/, $(addsuffix .o, $(FILE)))
 
-NAME :=  harl
+NAME :=  harlFilter
 
 $(OBJ_DIR):
 	mkdir -p $(OBJ_DIR)
